@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: product_session_agg
+    columns:
+      - name: product_id
+      - name: order_id
+      - name: user_id
+      - name: product_name
+      - name: session_id
+      - name: event_created_at
+      - name: product_page_view_ct
+      - name: add_to_cart_ct
